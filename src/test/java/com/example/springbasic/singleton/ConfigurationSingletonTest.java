@@ -38,7 +38,8 @@ public class ConfigurationSingletonTest {
         AppConfig bean = ac.getBean(AppConfig.class);
 
         System.out.println("bean = " + bean.getClass());
-        //출력:
+        //출력: bean = class hello.core.AppConfig$$EnhancerBySpringCGLIB$$bd479d70
     }
+
 
 }
